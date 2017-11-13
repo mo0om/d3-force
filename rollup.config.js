@@ -8,7 +8,7 @@ export default {
     extend: true,
     file: `build/${definition.name}.js`,
     format: "umd",
-    globals: dependencies.reduce((p, v) => (p[v] = "d3", p), {}),
-    name: "d3"
+    globals: dependencies.reduce((p, v) => (p[v] = "d3v4", p), {}),
+    name: "d3v4"
   }
 };
